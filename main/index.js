@@ -48,7 +48,7 @@ index.post("/send", (req, res) => {
       //Using sandgrid------->>>
       //////////////////////////////
       const API_KEY =
-        "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";
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
       sgMail.setApiKey(API_KEY);
 
       const message = {
@@ -97,8 +97,8 @@ index.post("/send", (req, res) => {
     var ses = require("node-ses"),
       client = ses.createClient({ key: "key", secret: "secret" });
 
-    const key = "AKIA6MUNL3RQ2RB23EYE";
-    const secret = "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";
+    const key = "XXXXXXXXXXXXX";
+    const secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
     ////////////////////////////
     // Give SES the details and let it construct the message for client.
